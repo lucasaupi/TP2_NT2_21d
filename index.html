@@ -19,6 +19,8 @@
     <input type="text" class="form-control" v-model="criterioDeBusquedaDni"
         placeholder="Filtrar por Dni...">
     <br>
+    
+    console.log(criterioDeBusqueda.size())
     <div class="card-deck m-0">
         <div class="row">
             <div class="col" v-for="persona in personasFiltradas">
