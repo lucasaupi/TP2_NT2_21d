@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const condicion = 'number';
-/// add
+
 function crearNuevoArray(array, condicion) {
     if (!['string', 'number', 'boolean'].includes(condicion)) {
         return "Error condición no válida";
